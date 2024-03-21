@@ -27,6 +27,9 @@
         "php": ">=8.0",
         "laravel/framework": "dev-ccel-laravel5-php8-compat"
     },
+    "replace": {
+        "laravelcollective/html": "self.version"
+    },
     "require-dev": {
         "mockery/mockery": "~1.0",
         "phpunit/phpunit" : "~9.0"
