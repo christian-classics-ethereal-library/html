@@ -1,6 +1,7 @@
 {
     "name": "laravelcollective/html",
     "description": "HTML and Form Builders for the Laravel Framework",
+    "version": "v5.6.10",
     "license": "MIT",
     "homepage": "https://laravelcollective.com",
     "support": {
@@ -26,9 +27,6 @@
     "require": {
         "php": ">=8.0",
         "laravel/framework": "dev-ccel-laravel5-php8-compat"
-    },
-    "replace": {
-        "laravelcollective/html": "self.version"
     },
     "require-dev": {
         "mockery/mockery": "~1.0",
